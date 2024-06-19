@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    padding: 10px;
+    margin: 10px auto;
+    width: fit-content;
+    background-color: #faebd7;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+input:focus {
+    border: 3px solid #000;
+    background-color: #ffff00;
+}
+
+button {
+    margin-top: 5px;
+    font-size: 10px;
+}

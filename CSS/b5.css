@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    width: 250px;
+    margin: 10px auto;
+    background-color: #f0f8ff;
+    padding-bottom: 5px;
+}
+
+p {
+    width: 250px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+p:hover {
+    color: red;
+    background-color: #eaebef;
+    margin-left: 10px;
+    width: 255px;
+}
+
+p + p {
+    margin-top: 10px;
+}

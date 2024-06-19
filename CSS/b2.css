@@ -1,0 +1,12 @@
+ul {
+    list-style-type: circle;
+}
+
+li {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+li:hover {
+    color: red;
+}

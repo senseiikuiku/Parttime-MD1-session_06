@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bài 9</title>
+        <link rel="stylesheet" href="CSS/b9.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <div class="slider">
+            <div id="slide1" class="slide">
+                <a href="#slide3" class="arrow left  ">
+                    <i class="fa-solid fa-chevron-left left1"></i>
+                </a>
+                <img src="./image/so1.jpg" alt="Image 1" />
+                <a href="#slide2" class="arrow right ">
+                    <i class="fa-solid fa-chevron-right right1"></i>
+                </a>
+            </div>
+            <div id="slide2" class="slide">
+                <a href="#slide1" class="arrow left">
+                    <i class="fa-solid fa-chevron-left left2"></i>
+                </a>
+                <img src="./image/so2.jpg" alt="Image 2" />
+                <a href="#slide3" class="arrow right">
+                    <i class="fa-solid fa-chevron-right right2"></i>
+                </a>
+            </div>
+            <div id="slide3" class="slide">
+                <a href="#slide2" class="arrow left left3">
+                    <i class="fa-solid fa-chevron-left "></i>
+                </a>
+                <img src="./image/so3.jpg" alt="Image 3" />
+                <a href="#slide1" class="arrow right right3">
+                    <i class="fa-solid fa-chevron-right "></i>
+                </a>
+            </div>
+        </div>
+        <div class="navigation">
+            <a href="#slide1" class="dot"></a>
+            <a href="#slide2" class="dot"></a>
+            <a href="#slide3" class="dot"></a>
+        </div>
+    </body>
+</html>
